@@ -2,48 +2,63 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Apresentação de nomes \\O/\n");
-       Guerreiro meuGuerreiro = new Guerreiro();
-       meuGuerreiro.nome = "josé";
-       meuGuerreiro.idade = 24;
 
-       meuGuerreiro.exibeFichaTecnica();
-        System.out.println(":) :) :) :) :) :) :) :) :)");
-       //FIM GUERREIRO
+        Globin meuGlobin = new Globin();
+        meuGlobin.getNome();
+        meuGlobin.getArma();
+        meuGlobin.setNome("chat");
+        meuGlobin.setArma("Tsar bomb");
+        meuGlobin.exibeFichaTecnica();
+        System.out.println("-------------------");
 
-       Mago meuMago = new Mago();
-       meuMago.nome = "Magnus";
-       meuMago.idade = 90;
 
-       meuMago.exibeFichaTecnica();
-        System.out.println(":) :) :) :) :) :) :) :) :)");
-       //FIM MAGO
+        Slime meuSlime = new Slime();
+        meuSlime.getNome();
+        meuSlime.getArma();
+        meuSlime.setNome("Slink");
+        meuSlime.setArma("Lança");
+        meuSlime.exibeFichaTecnica();
+        System.out.println("-------------------");
 
-       Arqueiro meuArqueiro = new Arqueiro();
-       meuArqueiro.nome = "Willians";
-       meuArqueiro.idade = 30;
 
-       meuArqueiro.exibeFichaTecnica();
-        System.out.println(":) :) :) :) :) :) :) :) :)");
-       //FIM ARQUEIRO
+        Orc meuOrc = new Orc();
+        meuOrc.getNome();
+        meuOrc.getArma();
+        meuOrc.setNome("Kerla");
+        meuOrc.setArma("Arco");
+        meuOrc.exibeFichaTecnica();
+        System.out.println("-------------------");
 
-       Bruxo meuBruxo = new Bruxo();
-       meuBruxo.nome = "Roque";
-       meuBruxo.idade = 170;
 
-       meuBruxo.exibeFichaTecnica();
-        System.out.println(":) :) :) :) :) :) :) :) :)");
-       //FIM BRUXO
+        Humano meuHumano = new Humano();
+        meuHumano.getNome();
+        meuHumano.getArma();
+        meuHumano.setNome("Taylor");
+        meuHumano.setArma("Faca");
+        meuHumano.exibeFichaTecnica();
+        System.out.println("-------------------");
 
-        Ladino meuLadino = new Ladino();
-        meuLadino.nome = "Jesfis";
-        meuLadino.idade = 15;
 
-        meuLadino.exibeFichaTecnica();
-        System.out.println(":) :) :) :) :) :) :) :) :)");
-        //FIM LADINO
+        Lobo meuLobo = new Lobo();
+        meuLobo.getNome();
+        meuLobo.getArma();
+        meuLobo.setNome("Alfa");
+        meuLobo.setArma("foices");
+        meuLobo.exibeFichaTecnica();
+        System.out.println("-------------------");
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
 
         }
     }
