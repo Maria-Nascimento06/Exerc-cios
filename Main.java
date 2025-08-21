@@ -2,47 +2,41 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Apresentação de nomes \\O/\n");
-       Guerreiro meuGuerreiro = new Guerreiro();
-       meuGuerreiro.nome = "josé";
-       meuGuerreiro.idade = 24;
+        System.out.println("Lista de alunos e nota em matemática");
 
-       meuGuerreiro.exibeFichaTecnica();
-        System.out.println(":) :) :) :) :) :) :) :) :)");
-       //FIM GUERREIRO
+        Matematica minhaMateria = new Matematica();
 
-       Mago meuMago = new Mago();
-       meuMago.nome = "Magnus";
-       meuMago.idade = 90;
+        minhaMateria.getNome();
+        minhaMateria.getNota();
+        minhaMateria.setNome("Fernanda");
+        minhaMateria.setNota(7.4);
 
-       meuMago.exibeFichaTecnica();
-        System.out.println(":) :) :) :) :) :) :) :) :)");
-       //FIM MAGO
 
-       Arqueiro meuArqueiro = new Arqueiro();
-       meuArqueiro.nome = "Willians";
-       meuArqueiro.idade = 30;
+        minhaMateria.getNome2();
+        minhaMateria.getNota2();
+        minhaMateria.setNome2("Luis");
+        minhaMateria.setNota2(3.2);
 
-       meuArqueiro.exibeFichaTecnica();
-        System.out.println(":) :) :) :) :) :) :) :) :)");
-       //FIM ARQUEIRO
 
-       Bruxo meuBruxo = new Bruxo();
-       meuBruxo.nome = "Roque";
-       meuBruxo.idade = 170;
+        minhaMateria.getNome3();
+        minhaMateria.getNota3();
+        minhaMateria.setNome3("Alex") ;
+        minhaMateria.setNota3(8.6);
 
-       meuBruxo.exibeFichaTecnica();
-        System.out.println(":) :) :) :) :) :) :) :) :)");
-       //FIM BRUXO
 
-        Ladino meuLadino = new Ladino();
-        meuLadino.nome = "Jesfis";
-        meuLadino.idade = 15;
+        minhaMateria.getNome4();
+        minhaMateria.getNota4();
+        minhaMateria.setNome4("Gabriella");
+        minhaMateria.setNota4(1.1);
 
-        meuLadino.exibeFichaTecnica();
-        System.out.println(":) :) :) :) :) :) :) :) :)");
-        //FIM LADINO
 
+        minhaMateria.getNome5();
+        minhaMateria.getNota5();
+        minhaMateria.setNome5("Ana");
+        minhaMateria.setNota5(10.0);
+
+
+        minhaMateria.exibeFichaTecnica();
 
 
         }
